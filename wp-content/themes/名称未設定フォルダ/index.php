@@ -44,7 +44,7 @@ if ( $the_query->have_posts() ): ?>
     foreach( $newslist as $post ):
     setup_postdata( $post );
 ?>
-<dt> <?php the_time('Y年n月j日'); ?></dt>
+<dt> <?php the_time('X年n月j日'); ?></dt>
 <dd> <a href="<?php the_permalink(); ?>"> <?php the_title(); ?></a> 
 <?php 
 $days = 7;
